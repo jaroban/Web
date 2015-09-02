@@ -1,0 +1,29 @@
+﻿.error {
+    color:red;
+}
+.valid {
+    color:green;
+}
+@font-face{
+	font-family: "purista";
+	src: url('/fonts/PuristaMedium.otf') format("opentype");
+}
+html {
+    font-family: purista;
+    font-size: 1.17em;
+}
+input[type=submit] {
+    font-family: purista;
+}
+h2 {
+    margin-top:0;
+}
+.verticalMiddle {
+    vertical-align: middle;
+}
+.popupHover {
+
+}
+.whiteText {
+    color: #ffffff;
+}

@@ -1,0 +1,53 @@
+﻿.error {
+    color:red;
+}
+.valid {
+    color:green;
+}
+@font-face{
+	font-family: "purista";
+	src: url('/fonts/PuristaMedium.otf') format("opentype");
+}
+html {
+    font-family: purista;
+    font-size: 1.17em;
+}
+input[type=submit]{
+    font-family: purista;
+}
+input { 
+    font-family: purista;
+}
+textarea {
+    font-family: purista;
+}
+select {
+    font-family: purista;
+}
+input[type='checkbox'] {
+    /*-webkit-appearance:none;*/
+    width:25px;
+    height:25px;
+    /*
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;*/
+}
+input[type='checkbox']:checked {
+    background: #000;
+}
+h2 {
+    margin-top:0;
+}
+.verticalMiddle {
+    vertical-align: middle;
+}
+.negative {
+    color:red;
+}
+.positive {
+    color:green;
+}
+td { 
+    padding: 1px;
+}

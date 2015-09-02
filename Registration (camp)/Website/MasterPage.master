@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPagePublic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>KM 2015</title>
+    <link href="CSS/Public.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/scripts/jquery-2.1.1.min.js"></script> 
+    <asp:ContentPlaceHolder id="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ajaxToolkit:ToolkitScriptManager runat="server" ID="ScriptManager" />
+        <div>
+            <asp:ContentPlaceHolder id="Body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
